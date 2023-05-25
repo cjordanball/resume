@@ -1,4 +1,4 @@
-export const education = {
+const education = {
 	formal: {
 		headlineMain: 'Education',
 		headlineSub: 'Degree Programs',
@@ -87,3 +87,5 @@ export const education = {
 		],
 	},
 };
+
+export default education;

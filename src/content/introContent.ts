@@ -1,17 +1,4 @@
-export const cjbContent = {
-	contactInfo: {
-		fullName: 'C. Jordan Ball III',
-		nickName: 'Jordan',
-		lastName: 'Ball',
-		telephone: '757-425-6200',
-		webpage: 'https://www.ballwebdev.com',
-		github: 'https://github.com/cjordanball',
-		linkedIn: 'www.linkedin.com/in/cjordanball',
-	},
-	headline: {
-		position: 'Senior Software Engineer',
-		highlightBar: ['JavaScript', 'TypeScript', 'NodeJS', 'React'],
-	},
+const introContent = {
 	profile: {
 		heading: 'Profile',
 		text: 'Former attorney turned programmer/web developer, with experience designing and building full-stack web applications within the NodeJS / Express environment. Highly skilled as a problem solver, <span class="red">ranked 1st or 2nd out of 125,000+ users on the coderbyte.com coding challenge website.</span> A lifelong learner who combines a love of new technologies with a passion for digging deep into programming fundamentals.',
@@ -59,3 +46,5 @@ export const cjbContent = {
 		},
 	},
 };
+
+export default introContent;
