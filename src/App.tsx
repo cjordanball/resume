@@ -26,13 +26,12 @@ function App() {
 				<Body>
 					<FormalEducation />
 					<OtherEducation />
-					<OnlineEducation />
 				</Body>
 			</PageBreak>
 			<PageBreak>
 				<Header contacts={false} />
 				<Body>
-					<div></div>
+					<OnlineEducation />
 				</Body>
 			</PageBreak>
 		</div>

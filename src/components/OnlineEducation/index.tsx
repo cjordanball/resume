@@ -1,11 +1,19 @@
 import styles from './onlineEducation.module.css';
+import education from '../../content/education';
 
 const OnlineEducation = () => {
-	return (
-		<div className={styles.container}>
-			<h1>Online Education</h1>
-		</div>
-	);
+	const courses = education.courses.courseNames;
+	const courseList = courses.map((val) => {
+		return (
+			<div
+				key={`${val}-${Math.random().toString()}`}
+				className={styles.courseItem}
+			>
+				{val}
+			</div>
+		);
+	});
+	return <div className={styles.container}>{courseList}</div>;
 };
 
 export default OnlineEducation;

@@ -1,5 +1,5 @@
 .container {
 	page-break-after: always;
-	height: 1056px;
+	padding-bottom: 2rem;
 	border-bottom: 1px black solid;
 }

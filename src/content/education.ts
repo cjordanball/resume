@@ -11,7 +11,7 @@ const education = {
 			{
 				name: 'Georgetown University Law Center',
 				degree: 'Juris Doctor',
-				location: 'New York City',
+				location: 'Washington, D.C.',
 			},
 			{
 				name: 'New York University School of Law',

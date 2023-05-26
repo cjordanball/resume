@@ -1,0 +1,13 @@
+.container {
+	padding-top: 1rem;
+	padding-left: 4rem;
+	display: flex;
+	flex-direction: column;
+	row-gap: 0.5rem;
+}
+
+.introSection {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
