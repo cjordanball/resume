@@ -1,7 +1,7 @@
 const introContent = {
 	profile: {
 		heading: 'Profile',
-		text: 'Former attorney turned programmer/web developer, with experience designing and building full-stack web applications within the NodeJS / Express environment. Highly skilled as a problem solver, <span class="red">ranked 1st or 2nd out of 125,000+ users on the coderbyte.com coding challenge website.</span> A lifelong learner who combines a love of new technologies with a passion for digging deep into programming fundamentals.',
+		text: "Former attorney turned programmer/web developer, with experience designing and building full-stack web applications within the NodeJS / Express environment. Highly skilled as a problem solver, <span style='color:red'>ranked 1st or 2nd out of 125,000+ users on the coderbyte.com coding challenge website.</span> A lifelong learner who combines a love of new technologies with a passion for digging deep into programming fundamentals.",
 	},
 	skills: {
 		headline: {

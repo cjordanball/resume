@@ -2,10 +2,14 @@ import { Headline } from '..';
 import ContactBox from '../ContactBox';
 import styles from './header.module.css';
 
-const Header = () => {
+interface HeaderProps {
+	contacts: boolean;
+}
+
+const Header = ({ contacts = false }: HeaderProps) => {
 	return (
 		<div className={styles.container}>
-			<ContactBox />
+			<ContactBox contacts={contacts} />
 			<Headline />
 		</div>
 	);

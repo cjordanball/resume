@@ -1,7 +1,11 @@
 import styles from './contactBox.module.css';
 import { headerContent } from '../../content';
 
-const ContactBox = () => {
+interface ContactBoxProps {
+	contacts: boolean;
+}
+
+const ContactBox = ({ contacts = false }: ContactBoxProps) => {
 	const boxData = headerContent.contactInfo;
 	return (
 		<div className={styles.container}>
@@ -10,10 +14,14 @@ const ContactBox = () => {
 			</div>
 			<div className={styles.textSection}>
 				<div className={styles.nameField}>{boxData.fullName}</div>
-				<div className={styles.infoFields}>{boxData.telephone}</div>
-				<div className={styles.infoFields}>{boxData.webpage}</div>
-				<div className={styles.infoFields}>{boxData.github}</div>
-				<div className={styles.infoFields}>{boxData.linkedIn}</div>
+				{contacts && (
+					<>
+						<div className={styles.infoFields}>{boxData.telephone}</div>
+						<div className={styles.infoFields}>{boxData.webpage}</div>
+						<div className={styles.infoFields}>{boxData.github}</div>
+						<div className={styles.infoFields}>{boxData.linkedIn}</div>
+					</>
+				)}
 			</div>
 		</div>
 	);
