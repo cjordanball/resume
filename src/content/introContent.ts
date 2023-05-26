@@ -8,42 +8,44 @@ const introContent = {
 			mainHeadline: 'Technical Skills',
 			parenthetical: '(most developed are bolded)',
 		},
-		languages: {
-			headline: 'Programming/Markup Languages:',
-			entries: ['JavaScript', 'C', 'Go', 'HTML', 'CSS'],
-		},
-		serverFrameworks: {
-			headline: 'Server-Side Frameworks:',
-			entries: ['NodeJS', 'Express', 'Swagger'],
-		},
-		browserFrameworks: {
-			headline: 'Front-End Frameworks:',
-			entries: ['React/Redux', 'Angular', 'AngularJS', 'Bootstrap'],
-		},
-		data: {
-			headline: 'Database:',
-			entries: ['MongoDB / Mongoose', 'PostgreSQL', 'Sequelize', 'GraphQL'],
-		},
-		testing: {
-			headline: 'Testing',
-			entries: ['Mocha', 'Jasmine'],
-		},
-		misc: {
-			headline: 'Other',
-			entries: [
-				'AWS (EC2, S3, Route53, IAM, etc.)',
-				'Git/GitHub',
-				'Bitbucket',
-				'Heroku',
-				'Webpack',
-				'Docker',
-				'Digital Ocean',
-				'Pivotal Tracker',
-				'JIRA',
-				'agile development',
-				'Oracle Web Content Server',
-			],
-		},
+		content: [
+			{
+				headline: 'Programming/Markup Languages:',
+				entries: ['JavaScript', 'C', 'Go', 'HTML', 'CSS'],
+			},
+			{
+				headline: 'Server-Side Frameworks:',
+				entries: ['NodeJS', 'Express', 'Swagger'],
+			},
+			{
+				headline: 'Front-End Frameworks:',
+				entries: ['React/Redux', 'Angular', 'AngularJS', 'Bootstrap'],
+			},
+			{
+				headline: 'Database:',
+				entries: ['MongoDB / Mongoose', 'PostgreSQL', 'Sequelize', 'GraphQL'],
+			},
+			{
+				headline: 'Testing',
+				entries: ['Mocha', 'Jasmine'],
+			},
+			{
+				headline: 'Other',
+				entries: [
+					'AWS (EC2, S3, Route53, IAM, etc.)',
+					'Git/GitHub',
+					'Bitbucket',
+					'Heroku',
+					'Webpack',
+					'Docker',
+					'Digital Ocean',
+					'Pivotal Tracker',
+					'JIRA',
+					'agile development',
+					'Oracle Web Content Server',
+				],
+			},
+		],
 	},
 };
 
