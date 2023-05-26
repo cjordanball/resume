@@ -1,5 +1,13 @@
 import styles from './App.module.css';
-import { Header, Profile, Skills, Experience } from './components';
+import {
+	Header,
+	Profile,
+	Skills,
+	Experiences,
+	FormalEducation,
+	OtherEducation,
+	OnlineEducation,
+} from './components';
 import { PageBreak, Body } from './components/utilityComponents';
 
 function App() {
@@ -10,13 +18,15 @@ function App() {
 				<Body>
 					<Profile />
 					<Skills />
-					<Experience />
+					<Experiences />
 				</Body>
 			</PageBreak>
 			<PageBreak>
 				<Header contacts={false} />
 				<Body>
-					<div></div>
+					<FormalEducation />
+					<OtherEducation />
+					<OnlineEducation />
 				</Body>
 			</PageBreak>
 			<PageBreak>
