@@ -1,5 +1,5 @@
 import styles from './App.module.css';
-import { Header, Profile, Skills, Experience } from './components';
+import { Header, Profile, Skills, Experiences } from './components';
 import { PageBreak, Body } from './components/utilityComponents';
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
 				<Body>
 					<Profile />
 					<Skills />
-					<Experience />
+					<Experiences />
 				</Body>
 			</PageBreak>
 			<PageBreak>
