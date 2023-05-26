@@ -1,25 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import { headerContent } from './content';
+import styles from './App.module.css';
+import { Header, Profile, Skills, Experience } from './components';
+import { PageBreak, Body } from './components/utilityComponents';
 
 function App() {
 	return (
-		<div className='App'>
-			<header className='App-header'>
-				<img src={logo} className='App-logo' alt='logo' />
-				<p>
-					Edit <code>src/App.tsx</code> and save to reload.
-				</p>
-				<a
-					className='App-link'
-					href='https://reactjs.org'
-					target='_blank'
-					rel='noopener noreferrer'
-				>
-					{headerContent.contactInfo.fullName}
-				</a>
-			</header>
+		<div className={styles.container}>
+			<PageBreak>
+				<Header contacts={true} />
+				<Body>
+					<Profile />
+					<Skills />
+					<Experience />
+				</Body>
+			</PageBreak>
+			<PageBreak>
+				<Header contacts={false} />
+				<Body>
+					<div></div>
+				</Body>
+			</PageBreak>
+			<PageBreak>
+				<Header contacts={false} />
+				<Body>
+					<div></div>
+				</Body>
+			</PageBreak>
 		</div>
 	);
 }
