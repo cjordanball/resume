@@ -16,7 +16,9 @@ const ContactBox = ({ contacts = false }: ContactBoxProps) => {
 				<div className={styles.nameField}>{boxData.fullName}</div>
 				{contacts && (
 					<>
-						<div className={styles.infoFields}>{boxData.telephone}</div>
+						<div
+							className={styles.infoFields}
+						>{`Tel: ${boxData.telephone}`}</div>
 						<div className={styles.infoFields}>{boxData.webpage}</div>
 						<div className={styles.infoFields}>{boxData.github}</div>
 						<div className={styles.infoFields}>{boxData.linkedIn}</div>

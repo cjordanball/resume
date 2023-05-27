@@ -1,5 +1,5 @@
 import { Headline } from '..';
-import ContactBox from '../ContactBox';
+import { ContactBox } from '../../components';
 import styles from './header.module.css';
 
 interface HeaderProps {

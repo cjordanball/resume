@@ -2,6 +2,7 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
+	align-items: center;
 	height: 100%;
 }
 
@@ -13,4 +14,9 @@
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
+}
+
+.nameField {
+	font-size: var(--header-name-size);
+	line-height: var(--header-name-line-height);
 }
