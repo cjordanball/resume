@@ -4,10 +4,7 @@ import { introContent } from '../../content';
 const ProfileBox = () => {
 	return (
 		<div className={styles.container}>
-			<div
-				className={styles.titleSection}
-				dangerouslySetInnerHTML={{ __html: introContent.profile.heading }}
-			/>
+			<div className={styles.titleSection}>{introContent.profile.heading}</div>
 			<div
 				className={styles.textSection}
 				dangerouslySetInnerHTML={{ __html: introContent.profile.text }}
