@@ -1,9 +1,21 @@
 .container {
-	margin-top: 1rem;
+	margin-top: var(--separation-band);
+	display: flex;
+	flex-direction: row;
+}
+
+.titleSection {
+	flex-basis: var(--left-column-gap);
+	flex-grow: 0;
+	flex-shrink: 0;
+	font-size: var(--entry-headline-size);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .schoolList {
-	margin-top: 1rem;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	row-gap: 1rem;

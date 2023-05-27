@@ -12,7 +12,11 @@ const FormalEducation = () => {
 		<div className={styles.container}>
 			<div className={styles.titleSection}>
 				<span className={styles.mainTitle}>
-					{`${education.formal.headlineMain} (${education.formal.headlineSub})`}
+					{`${education.formal.headlineMain}${
+						education.formal.headlineSub
+							? `(${education.formal.headlineSub})`
+							: ''
+					}`}
 				</span>
 			</div>
 			<div className={styles.schoolList}>{schoolMap}</div>

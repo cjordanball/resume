@@ -1,7 +1,7 @@
 const education = {
 	formal: {
-		headlineMain: 'Education',
-		headlineSub: 'Degree Programs',
+		headlineMain: 'Degrees',
+		headlineSub: '',
 		schools: [
 			{
 				name: 'Manhattan School of Music',
