@@ -1,5 +1,19 @@
+:root {
+	--primary-font: 'Arial', 'sans-serif';
+	--primary-text-color: #000;
+
+	--header-name-size: 1.5rem;
+	--header-name-line-height: 2rem;
+	--entry-headline-size: 3rem;
+	--header-highlights-size: 1.25rem;
+}
+
 .container {
 	max-width: 816px;
 	margin: auto;
 	background-color: transparent;
+	font-family: var(--primary-font);
+	font-size: 12px;
+	line-height: 1rem;
+	text-align: justify;
 }
