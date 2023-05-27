@@ -21,7 +21,9 @@ interface ExperienceBoxProps {
 const ExperienceBox = ({ data }: ExperienceBoxProps) => {
 	return (
 		<div className={styles.container}>
-			<div className={styles.titleSection}>{data.companyName}</div>
+			<div className={styles.titleSection}>{`${data.companyName} (${
+				data.beginMonthYear
+			} to ${data.endMonthYear ? data.endMonthYear : 'Present'})`}</div>
 			<div
 				className={styles.descriptionSection}
 				dangerouslySetInnerHTML={{ __html: data.description }}

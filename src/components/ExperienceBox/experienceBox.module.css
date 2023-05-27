@@ -1,3 +1,10 @@
 .container {
+	display: flex;
+	flex-direction: column;
+	row-gap: 0.5rem;
 	color: var(--primary-text-color);
+}
+
+.titleSection {
+	font-size: var(--subheader-name-size);
 }
