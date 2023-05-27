@@ -1,3 +1,21 @@
 .container {
-	margin-top: 2rem;
+	margin-top: var(--separation-band);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.titleSection {
+	flex-basis: var(--left-column-gap);
+	flex-grow: 0;
+	flex-shrink: 0;
+	font-size: var(--entry-headline-size);
+}
+
+.skillListSection {
+	display: flex;
+	flex-direction: column;
+	row-gap: 0.5rem;
+	align-items: flex-start;
+	overflow: hidden;
 }

@@ -1,6 +1,7 @@
 import styles from './skillsBox.module.css';
 import { introContent } from '../../content';
 import { SkillBox } from '../../components';
+import { Tern } from '../utilityComponents';
 
 const SkillsBox = () => {
 	const skillList = introContent.skills.content;
@@ -11,15 +12,17 @@ const SkillsBox = () => {
 	});
 	return (
 		<div className={styles.container}>
-			<div className={styles.introSection}>
+			<div className={styles.titleSection}>
 				<span className={styles.mainHeadline}>
 					{introContent.skills.headline.mainHeadline}
 				</span>
-				<span className={styles.subHeadline}>
-					{introContent.skills.headline.parenthetical}
-				</span>
+				<Tern test={introContent.skills.headline.parenthetical}>
+					<span className={styles.subHeadline}>
+						{introContent.skills.headline.parenthetical}
+					</span>
+				</Tern>
 			</div>
-			{skillListItems}
+			<div className={styles.skillListSection}>{skillListItems}</div>
 		</div>
 	);
 };

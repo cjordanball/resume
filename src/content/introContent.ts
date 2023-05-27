@@ -5,20 +5,20 @@ const introContent = {
 	},
 	skills: {
 		headline: {
-			mainHeadline: 'Technical Skills',
-			parenthetical: '(most developed are bolded)',
+			mainHeadline: 'Skills',
+			parenthetical: null,
 		},
 		content: [
 			{
-				headline: 'Programming/Markup Languages:',
+				headline: 'Programming/Markup Languages',
 				entries: ['JavaScript', 'C', 'Go', 'HTML', 'CSS'],
 			},
 			{
-				headline: 'Server-Side Frameworks:',
+				headline: 'Server-Side Frameworks',
 				entries: ['NodeJS', 'Express', 'Swagger'],
 			},
 			{
-				headline: 'Front-End Frameworks:',
+				headline: 'Front-End Frameworks',
 				entries: ['React/Redux', 'Angular', 'AngularJS', 'Bootstrap'],
 			},
 			{
