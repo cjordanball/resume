@@ -18,7 +18,7 @@ const SchoolBox = ({ data }: SchoolBoxProps) => {
 				</div>
 			</div>
 			<div className={styles.locationSection}>
-				<div>{data.location}</div>
+				<div className={styles.schoolName}>{data.location}</div>
 			</div>
 		</div>
 	);
