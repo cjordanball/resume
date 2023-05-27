@@ -12,11 +12,13 @@ const SchoolBox = ({ data }: SchoolBoxProps) => {
 	return (
 		<div className={styles.container}>
 			<div className={styles.schoolSection}>
-				<div>{data.name}</div>
-				<div>{data.degree}</div>
+				<div className={styles.schoolName}>{data.name}</div>
+				<div>
+					<em>{data.degree}</em>
+				</div>
 			</div>
 			<div className={styles.locationSection}>
-				<div>{data.location}</div>
+				<div className={styles.schoolName}>{data.location}</div>
 			</div>
 		</div>
 	);
