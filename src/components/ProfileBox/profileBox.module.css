@@ -2,10 +2,12 @@
 	margin-top: 2rem;
 	display: flex;
 	flex-direction: row;
+	align-items: center;
 }
 
 .titleSection {
-	width: 5rem;
+	width: var(--left-column-gap);
+	font-size: var(--entry-headline-size);
 }
 
 .textSection {

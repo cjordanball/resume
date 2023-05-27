@@ -4,8 +4,10 @@
 
 	--header-name-size: 1.5rem;
 	--header-name-line-height: 2rem;
-	--entry-headline-size: 3rem;
+	--entry-headline-size: 1.5rem;
 	--header-highlights-size: 1.25rem;
+
+	--left-column-gap: 6rem;
 }
 
 .container {
